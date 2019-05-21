@@ -22,6 +22,16 @@ def word_substituter(tweet)
   end.join(" ")
 end
 
+# def word_substituter(tweet)
+#   tweet = tweet.dup
+#   dictionary.each do |word, replacement|
+#     if tweet.include?(word)
+#       tweet.gsub!(/\b#{word}\b/i, replacement)
+#     end
+#   end
+#   tweet
+# end
+
 
 def bulk_tweet_shortener(tweet_array)
   tweet_array.each do |tweet|
