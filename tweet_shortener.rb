@@ -40,7 +40,7 @@ end
 #      word
 #    end
 #  end.join(" ")
-end
+#end
 
 
 def bulk_tweet_shortener(tweet_array)
